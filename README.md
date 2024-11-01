@@ -11,7 +11,6 @@
 - [Results](#results)
 - [Recommendations](#recommendations)
 
-
 ### Project Overview
 
 DeckHT is facing a serious challenge with rising employee attrition, which has been identified as a key factor impacting productivity, morale, and overall organizational performance. By leveraging the available data, we aim to help management take proactive measures to reduce turnover and create a more stable and satisfied workforce.
@@ -93,7 +92,6 @@ The analysis results are summarized as follows:
    -  50% of current employees rate satisfaction as average and 29% as dissatisfied.
 
 
-
 ### Recommendations
 
 Based on the analysis, to reduce attrition, we recommend the following actions:
@@ -120,9 +118,10 @@ Since Specialists have the highest attrition rate, consider reviewing their job 
 
 5. Review Sales Role Structure
 
-Sales roles show poor performance ratings and low job satisfaction despite a low attrition rate. Addressing KPIs and providing support to enhance their effectiveness could improve their engagement and job satisfaction, potentially preventing future turnover.
+- Sales roles show poor performance ratings and low job satisfaction despite a low attrition rate. Addressing KPIs and providing support to enhance their effectiveness could improve their engagement and job satisfaction, potentially preventing future turnover.
 
 6. Enhance Support for Accountants
+
 Despite their low attrition rate, Accountants report low job satisfaction. Consider implementing benefits like flexible work arrangements, professional development opportunities, or wellness programs to improve morale.
 - Offer additional support for Accountants who report low job satisfaction despite having the lowest attrition rate.
 - Consider providing incentives like professional development funds, job enrichment, or flexible work options to enhance their overall work experience.
@@ -134,7 +133,8 @@ Despite their low attrition rate, Accountants report low job satisfaction. Consi
 - Explore department-level retention strategies, such as revisiting workloads, increasing team-building activities, and ensuring that employees have growth opportunities within their departments.
 - Consider implementing cross-departmental mentorship programs where stable departments like IT and Engineering can share best practices to foster job satisfaction.
 
-8. Improve Job Satisfaction Across the Board
+8. **Improve Job Satisfaction Across the Board**
+
 With a large percentage of employees rating their satisfaction as average or poor, an organization-wide effort is essential.
 - Launch an employee satisfaction survey to gather feedback on what employees value most in their roles and what changes they would like to see.
 - Develop a recognition program that rewards both individual and team achievements, fostering a culture of appreciation and engagement.
