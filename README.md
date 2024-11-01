@@ -10,6 +10,7 @@
 - [Data Analysis](#data-analysis)
 - [Results](#results)
 - [Recommendations](#recommendations)
+- [Conclusion](conclusion)
 
 ### Project Overview
 
@@ -131,3 +132,8 @@ Based on the analysis, to reduce attrition, we recommend the following actions:
    - Launch an employee satisfaction survey to gather feedback on what employees value most in their roles and what changes they would like to see.
    - Develop a recognition program that rewards both individual and team achievements, fostering a culture of appreciation and engagement.
    - Improve career progression clarity across all job roles, so employees understand their growth paths and feel motivated to stay with DeckHT long-term.
+
+
+### Conclusion
+
+The analysis of DeckHT’s attrition data provides a clear path forward. By addressing issues specific to demographics, roles, and satisfaction levels, DeckHT can create a more engaging and supportive environment that reduces turnover and strengthens its workforce. Taking immediate, targeted action will not only help retain existing talent but also foster a culture of growth and satisfaction for future employees.
