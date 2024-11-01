@@ -16,6 +16,10 @@
 
 DeckHT is facing a serious challenge with rising employee attrition, which has been identified as a key factor impacting productivity, morale, and overall organizational performance. By leveraging the available data, we aim to help management take proactive measures to reduce turnover and create a more stable and satisfied workforce.
 
+
+![Oluwatobi Moses OJO-HR ATTRITION DASHBOARD](https://github.com/user-attachments/assets/5b41dc89-3a09-46dd-a5f4-31f2c0670cc6)
+
+
 ### Data Source
 
 The primary dataset is the employee data compiled in the "DeckHT Attrition Project.xslx" file.
