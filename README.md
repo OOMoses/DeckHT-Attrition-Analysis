@@ -8,29 +8,25 @@
 - [Data Cleaning](#data-cleaning)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
 - [Data Analysis](#data-analysis)
-- [Results](#results)
+- [Insights](#insights)
 - [Recommendations](#recommendations)
 - [Conclusion](#conclusion)
 
-### Overview
-
+## Overview
 DeckHT is facing a serious challenge with rising employee attrition, which has been identified as a key factor impacting productivity, morale, and overall organizational performance. By leveraging the available data, we aim to help management take proactive measures to reduce turnover and create a more stable and satisfied workforce.
 
 ![Oluwatobi Moses OJO-HR ATTRITION DASHBOARD](https://github.com/user-attachments/assets/5b41dc89-3a09-46dd-a5f4-31f2c0670cc6)
 
 [**Interact with the Dashboard here**](https://1drv.ms/x/c/3921519a1e88d755/EXi49vGOC_VFvSy0Ve5W4kgBz14_RVelpD_h3jxdRsdTRA?e=Xc6T88)
 
-### Data Source
-
+## Data Source
 The primary dataset is the employee data compiled in the "DeckHT Attrition Project.xslx" file.
 
-### Tools
-
+## Tools
 - Excel: Data analysis, Visualization, and Reporting
 - Power Query: Data Cleaning
 
-### Data Cleaning
-
+## Data Cleaning
 In this phase, I did the following:
 1. Data loading and inspection in Power Query
 2. Remove unwanted columns
@@ -41,16 +37,14 @@ In this phase, I did the following:
 7. Correct data types
 
 
-### Data Transformation
-
+## Data Transformation
 In this phase, I did the following:
 1. Create Data Ranges
 2. Conditional Statements
 3. Replace Values
 
 
-### Exploratory Data Analysis
-
+## Exploratory Data Analysis
 This involved initial modelling like: 
 - Employee Composition
 - Attrition
@@ -60,16 +54,13 @@ This involved initial modelling like:
 - Gender Attrition Rate
 
 
-### Data Analysis
-
-
+## Data Analysis
 - Pivot Tables
 - KPI Indicators
 - Visualization
 
 
-### Results
-
+## Insights
 The analysis results are summarized as follows:
 1. **Gender and Attrition**
    - The workforce is predominantly male. However, females show a higher attrition rate of 34% compared to 27% among males. This suggests underlying gender-specific challenges affecting job satisfaction or engagement levels among female employees.
@@ -93,8 +84,7 @@ The analysis results are summarized as follows:
    - 50% of current employees rate satisfaction as average and 29% as dissatisfied.
 
 
-### Recommendations
-
+## Recommendations
 Based on the analysis, to reduce attrition, we recommend the following actions:
 
 1. **Enhance Female Engagement**
@@ -134,6 +124,5 @@ Based on the analysis, to reduce attrition, we recommend the following actions:
    - Improve career progression clarity across all job roles, so employees understand their growth paths and feel motivated to stay with DeckHT long-term.
 
 
-### Conclusion
-
+## Conclusion
 The analysis of DeckHT’s attrition data provides a clear path forward. By addressing issues specific to demographics, roles, and satisfaction levels, DeckHT can create a more engaging and supportive environment that reduces turnover and strengthens its workforce. Taking immediate, targeted action will not only help retain existing talent but also foster a culture of growth and satisfaction for future employees.
