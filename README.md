@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-- [Project Overview](#project-overview)
+- [Overview](#overview)
 - [Data Source](#data-source)
 - [Tools](#tools)
 - [Data Cleaning](#data-cleaning)
@@ -12,7 +12,7 @@
 - [Recommendations](#recommendations)
 - [Conclusion](#conclusion)
 
-### Project Overview
+### Overview
 
 DeckHT is facing a serious challenge with rising employee attrition, which has been identified as a key factor impacting productivity, morale, and overall organizational performance. By leveraging the available data, we aim to help management take proactive measures to reduce turnover and create a more stable and satisfied workforce.
 
