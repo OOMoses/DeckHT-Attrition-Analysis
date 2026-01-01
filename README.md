@@ -1,128 +1,280 @@
-# DeckHT Attrition Analysis
+# DeckHT Attrition Analysis – A Business Intelligence Case Study
 
-## Table of Contents
+## 📑 Table of Contents
 
-- [Overview](#overview)
-- [Data Source](#data-source)
-- [Tools](#tools)
-- [Data Cleaning](#data-cleaning)
-- [Exploratory Data Analysis](#exploratory-data-analysis)
-- [Data Analysis](#data-analysis)
-- [Insights](#insights)
-- [Recommendations](#recommendations)
-- [Conclusion](#conclusion)
+- [Executive Summary](#-executive-summary)
+- [Dashboard Visuals](#-dashboard-visuals)
+- [Context & Problem Statement](#-context--problem-statement)
+- [Business Goals & Stakeholders](#-business-goals--stakeholders)
+- [Tools & Skills Used](#-tools--skills-used)
+- [Data Cleaning & Transformation (Power Query)](#-data-cleaning--transformation-power-query)
+- [Exploratory & Statistical Analysis](#-exploratory--statistical-analysis)
+- [Key Insights – What the Data Revealed](#-key-insights--what-the-data-revealed)
+- [Business Value Created](#-business-value-created)
+- [Recommendations](#-recommendations)
+- [Conclusion](#-conclusion)
 
-## Overview
-DeckHT is facing a serious challenge with rising employee attrition, which has been identified as a key factor impacting productivity, morale, and overall organizational performance. By leveraging the available data, we aim to help management take proactive measures to reduce turnover and create a more stable and satisfied workforce.
+---
 
-![Oluwatobi Moses OJO-HR ATTRITION DASHBOARD](https://github.com/user-attachments/assets/5b41dc89-3a09-46dd-a5f4-31f2c0670cc6)
+## 🚀 Executive Summary
+DeckHT is losing high-value talent — particularly women, professionals aged **26–35**, and employees in **Specialist and Analyst roles**. Attrition in these groups is **significantly higher than the company average**, and **57% of leavers reported poor or below-average job satisfaction**.
 
-[**Interact with the Dashboard here**](https://1drv.ms/x/c/3921519a1e88d755/EXi49vGOC_VFvSy0Ve5W4kgBz14_RVelpD_h3jxdRsdTRA?e=Xc6T88)
+This pattern signals **systemic retention risks** tied to:
+- Pay disparity (men earn **$4,000 more on average**)
+- Career progression concerns
+- Workload & role-design challenges in specialist roles
+- Engagement gaps
 
-## Data Source
-The primary dataset is the employee data compiled in the "DeckHT Attrition Project.xslx" file.
+If left unaddressed, attrition will continue to:
+✔ Increase hiring & onboarding costs  
+✔ Reduce productivity & institutional knowledge  
+✔ Disrupt culture & morale  
 
-## Tools
-- Excel: Data analysis, Visualization, and Reporting
-- Power Query: Data Cleaning
+This project transforms raw HR data into **clear risk signals and actionable strategies**, helping leadership proactively protect capability, improve engagement, and stabilize the workforce.
 
-## Data Cleaning
-In this phase, I did the following:
-1. Data loading and inspection in Power Query
-2. Remove unwanted columns
-3. Remove unwanted rows
-4. Split columns
-5. Replace headers
-6. Trim
-7. Correct data types
+---
 
+## 📊 Dashboard Visuals
+![DeckHT Attrition Dashboard](https://github.com/user-attachments/assets/5b41dc89-3a09-46dd-a5f4-31f2c0670cc6)
 
-## Data Transformation
-In this phase, I did the following:
-1. Create Data Ranges
-2. Conditional Statements
-3. Replace Values
+🔗 **Interactive Dashboard**  
+https://1drv.ms/x/c/3921519a1e88d755/EXi49vGOC_VFvSy0Ve5W4kgBz14_RVelpD_h3jxdRsdTRA?e=Xc6T88
 
+The dashboard enables leadership to:
 
-## Exploratory Data Analysis
-This involved initial modelling like: 
-- Employee Composition
-- Attrition
-- Attrition Rate
-- Gender composition
-- Gender Attrition
-- Gender Attrition Rate
+✔ Explore attrition trends  
+✔ Drill into high-risk demographics  
+✔ Monitor satisfaction & role exposure  
+✔ Make informed retention decisions  
 
+---
 
-## Data Analysis
-- Pivot Tables
-- KPI Indicators
-- Visualization
+## 🎯 Context & Problem Statement
+DeckHT leadership observed a rise in voluntary employee departures.  
+While some turnover is expected, **increasing attrition across critical roles and demographics raised concern** around:
 
+- Talent continuity  
+- Capability risk  
+- Hiring & training cost  
+- Employee morale  
 
-## Insights
-The analysis results are summarized as follows:
-1. **Gender and Attrition**
-   - The workforce is predominantly male. However, females show a higher attrition rate of 34% compared to 27% among males. This suggests underlying gender-specific challenges affecting job satisfaction or engagement levels among female employees.
+The HR team needed **evidence-driven clarity** — not assumptions — on:
 
-2. **Pay and Satisfaction Disparities**
-   - Male employees earn an average of $4,000 more than female employees, with an average company salary of $62,000.
+> **Who is leaving? Why are they leaving? And where is the risk concentrated?**
 
-3. **Age Group Dynamics**
-   - Attrition is most prominent in employees aged 31-35 and 26-30, with rates of 38.9% and 27.8%, respectively. These age groups represent nearly two-thirds of all employees leaving DeckHT.
+This project answers those questions.
 
-4. **Departmental Differences**
-   - Attrition is spread across departments, with HR, Finance, Sales, and Marketing showing relatively high turnover.
-   - However, IT and Engineering, at 7.7% and 6.8% respectively, have the lowest attrition.
+---
 
-5. **Job Role Vulnerabilities**
-   - Among job roles, Specialists have the highest attrition rate at 41%, followed by Analysts at 35%.
-   - Accountants have the lowest attrition at 12% but experience below-average job satisfaction.  
+## 👥 Business Goals & Stakeholders
 
-6. **Job Satisfaction Insights**
-   - A concerning 57% of departing employees rate job satisfaction as poor or below average.
-   - 50% of current employees rate satisfaction as average and 29% as dissatisfied.
+### Primary Stakeholders
+- Chief HR Officer  
+- HR Business Partners  
+- Executive Leadership  
+- Finance (workforce planning)
 
+### Business Objectives
+✔ Identify at-risk employee segments  
+✔ Understand drivers influencing attrition  
+✔ Quantify workforce exposure  
+✔ Support data-driven retention strategy  
+✔ Provide HR a decision-ready dashboard  
 
-## Recommendations
-Based on the analysis, to reduce attrition, we recommend the following actions:
+---
 
-1. **Enhance Female Engagement**
-   - Conduct focus groups or surveys with female employees to understand their specific challenges, such as work-life balance, career advancement opportunities, and workplace culture to implement changes that foster a more supportive environment for women at DeckHT.
-   - Consider policies like flexible work hours or remote work options, which may appeal more to female employees and improve retention.
+## 🛠 Tools & Skills Used
+- **Excel** — KPI modeling & dashboard design  
+- **Power Query** — ETL & data preparation  
+- **Pivot Tables** — aggregation & segmentation  
+- **Exploratory & Descriptive Analytics**  
+- **Data Storytelling & BI Strategy**
 
-2. **Close the Pay Gap and Improve Pay Transparency**
-   - Review and adjust compensation policies to close the $4,000 pay gap between male and female employees, ensuring pay equity across the organization.
-   - Increase transparency around salary ranges and criteria for raises and promotions, so employees have a clear understanding of how to progress financially within the company.
+---
 
-3. **Focus on Key Age Groups**
-   - Create targeted professional development opportunities for employees in the 26-35 age range, such as leadership training, career path planning, and skill-building workshops.
-   - Consider offering retention bonuses or loyalty incentives for employees who stay past the 5-year mark, particularly for those in this age group.
+## 🔄 Data Cleaning & Transformation (Power Query)
+**Goal:** Convert raw HR records into an accurate, analysis-ready dataset.
 
-4. **Support Specialist and Analyst Roles**
-   - Provide additional training, support, and clear advancement opportunities for Specialists and Analysts to improve their job satisfaction and engagement.
-   - Review workload distribution for these roles and consider adjusting KPIs or targets to avoid burnout, a common cause of high turnover in specialized positions.
-   - Recognize and reward achievements in these roles more frequently to show appreciation for their contributions.
+I followed a structured ETL workflow:
 
-5. **Review Sales Role Structure**
-   - Sales roles show poor performance ratings and low job satisfaction despite a low attrition rate. Addressing KPIs and providing support to enhance their effectiveness could improve their engagement and job satisfaction, potentially preventing future turnover.
+1️⃣ **Imported & Profiled the Data**  
+   *Purpose:* Understand data structure, missing values, and inconsistencies.
 
-6. **Enhance Support for Accountants**
-   - Offer additional support for Accountants who report low job satisfaction despite having the lowest attrition rate.
-   - Consider providing incentives like professional development funds, job enrichment, or flexible work options to enhance their overall work experience.
-   - Solicit regular feedback from Accountants to address any ongoing concerns before they escalate.
+2️⃣ **Removed Irrelevant Columns & Invalid Rows**  
+   *Purpose:* Reduce noise and improve analytical reliability.
 
-7. **Enhance Support and Retention Efforts in High-Turnover Departments**
-   - Engage with employees in HR, Finance, Sales, and Marketing to identify department-specific issues contributing to high turnover.
-   - Explore department-level retention strategies, such as revisiting workloads, increasing team-building activities, and ensuring that employees have growth opportunities within their departments.
-   - Consider implementing cross-departmental mentorship programs where stable departments like IT and Engineering can share best practices to foster job satisfaction.
+3️⃣ **Standardized & Split Columns Where Needed**  
+   *Purpose:* Enable flexible segmentation (e.g., role, department, demographics).
 
+4️⃣ **Renamed & Formatted Headers**  
+   *Purpose:* Improve readability and maintain consistent schema.
 
-8. **Improve Job Satisfaction Across the Board**
-   - Launch an employee satisfaction survey to gather feedback on what employees value most in their roles and what changes they would like to see.
-   - Develop a recognition program that rewards both individual and team achievements, fostering a culture of appreciation and engagement.
-   - Improve career progression clarity across all job roles, so employees understand their growth paths and feel motivated to stay with DeckHT long-term.
+5️⃣ **Corrected Data Types (text, numeric, date)**  
+   *Purpose:* Prevent aggregation & calculation errors.
 
+6️⃣ **Created Derived Fields & KPI Flags**  
+   *Purpose:* Compute attrition metrics & support visualization logic.
 
-## Conclusion
-The analysis of DeckHT’s attrition data provides a clear path forward. By addressing issues specific to demographics, roles, and satisfaction levels, DeckHT can create a more engaging and supportive environment that reduces turnover and strengthens its workforce. Taking immediate, targeted action will not only help retain existing talent but also foster a culture of growth and satisfaction for future employees.
+Result:  
+A **clean, structured dataset ready for HR analytics.**
+
+---
+
+## 🔍 Exploratory & Statistical Analysis
+I analyzed attrition across:
+
+- Gender  
+- Age groups  
+- Department  
+- Job role  
+- Compensation  
+- Job satisfaction  
+- Workforce composition  
+
+The goal was not just to summarize —  
+but to **understand patterns and risk concentration.**
+
+---
+
+## 📊 Key Insights – What the Data Revealed
+
+### 1️⃣ Gender-Based Attrition Risk
+Although the workforce is mostly male:
+
+| Group | Attrition Rate |
+|------|----------------|
+| **Female** | **34%** |
+| Male | 27% |
+
+📌 **Women are leaving at meaningfully higher rates**
+
+This signals:
+- engagement challenges
+- pay fairness concerns
+- potential culture impact
+
+---
+
+### 2️⃣ Pay Inequality — a Predictable Risk Driver
+- **Male employees earn ≈ $4,000 more on average**
+- Average company salary: **$62,000**
+
+📌 Pay equity risk exists  
+📌 Likely influencing engagement & retention
+
+---
+
+### 3️⃣ The Most Vulnerable Age Groups
+Attrition peaks among:
+
+| Age Group | Attrition |
+|----------|-----------|
+| **31–35** | **38.9%** |
+| **26–30** | **27.8%** |
+
+These employees are typically:
+- Career-advancing
+- Highly mobile
+- Expensive to replace
+
+📌 **Nearly two-thirds of departures come from these two age brackets**
+
+---
+
+### 4️⃣ Job Roles Under Pressure
+Highest attrition:
+
+| Role | Attrition Rate |
+|------|----------------|
+| **Specialists** | **41%** |
+| **Analysts** | **35%** |
+
+These are **high-skill, high-impact roles.**
+
+Meanwhile:
+- Accountants show **low attrition (12%)**
+- But **below-average satisfaction**
+
+📌 Retention risk exists **before** resignations occur  
+📌 Signals future churn if unaddressed
+
+---
+
+### 5️⃣ Departmental Stability — and Fragility
+High-turnover departments include:
+
+- HR  
+- Sales  
+- Marketing  
+- Finance  
+
+Meanwhile:
+
+| Department | Attrition |
+|-----------|-----------|
+| **Engineering** | **6.8%** |
+| **IT** | **7.7%** |
+
+📌 Specialist knowledge loss is concentrated  
+📌 Technical functions are relatively stable
+
+---
+
+### 6️⃣ Satisfaction Predicts Attrition
+Among exiting staff:
+
+- **57% report poor/below-average satisfaction**
+
+Among current staff:
+
+- **29% dissatisfied**
+- **50% neutral**
+
+📌 Neutral engagement is a **warning zone**
+📌 Quiet dissatisfaction precedes churn
+
+---
+
+## 💼 Business Value Created
+This project helps DeckHT:
+
+✅ Move from **reactive hiring** → to **proactive retention**  
+✅ Protect capability in critical roles  
+✅ Reduce recruitment & onboarding cost  
+✅ Strengthen employee experience & engagement  
+✅ Support data-driven HR strategy  
+
+---
+
+## 💡 Recommendations
+
+### Highest-Impact Actions
+1️⃣ **Close the gender pay gap & improve transparency**  
+2️⃣ **Design career-path programs for ages 26–35**  
+3️⃣ **Stabilize Specialist & Analyst roles**
+   - workload review  
+   - recognition systems  
+   - skill pathways  
+
+4️⃣ **Engagement listening — before exit interviews**  
+5️⃣ **Early-warning HR analytics monitoring**  
+
+---
+
+## 🏁 Conclusion
+Attrition at DeckHT is **predictable — and preventable.**
+
+By combining compensation analysis, demographic segmentation, and satisfaction metrics, this project provides **clear visibility into who is at risk and why.**
+
+With targeted intervention, DeckHT can:
+✔ retain key talent  
+✔ reduce cost leakage  
+✔ strengthen workforce morale  
+✔ build a healthier, more equitable culture  
+
+---
+
+## 👤 Author
+**Oluwatobi Moses Ojo**  
+Data & BI Analyst  
+*Turning data into business clarity.*
